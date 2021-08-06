@@ -13,6 +13,8 @@
 		1A66AE7D26BC4D1F002BB556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A66AE7C26BC4D1F002BB556 /* Assets.xcassets */; };
 		1A66AE8026BC4D1F002BB556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A66AE7F26BC4D1F002BB556 /* Preview Assets.xcassets */; };
 		1A66AE8326BC4D1F002BB556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A66AE8126BC4D1F002BB556 /* LaunchScreen.storyboard */; };
+		1A66AE8D26BC4F18002BB556 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A66AE8C26BC4F18002BB556 /* Pacifico-Regular.ttf */; };
+		1A66AE8F26BC640B002BB556 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66AE8E26BC640B002BB556 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A66AE7F26BC4D1F002BB556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A66AE8226BC4D1F002BB556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A66AE8426BC4D1F002BB556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A66AE8C26BC4F18002BB556 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		1A66AE8E26BC640B002BB556 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		1A66AE7526BC4D1D002BB556 /* SimranjotCard */ = {
 			isa = PBXGroup;
 			children = (
+				1A66AE8A26BC4EDF002BB556 /* fonts */,
 				1A66AE7626BC4D1D002BB556 /* AppDelegate.swift */,
 				1A66AE7826BC4D1D002BB556 /* SceneDelegate.swift */,
 				1A66AE7A26BC4D1D002BB556 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				1A66AE8126BC4D1F002BB556 /* LaunchScreen.storyboard */,
 				1A66AE8426BC4D1F002BB556 /* Info.plist */,
 				1A66AE7E26BC4D1F002BB556 /* Preview Content */,
+				1A66AE8E26BC640B002BB556 /* InfoView.swift */,
 			);
 			path = SimranjotCard;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				1A66AE7F26BC4D1F002BB556 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A66AE8A26BC4EDF002BB556 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1A66AE8C26BC4F18002BB556 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A66AE8326BC4D1F002BB556 /* LaunchScreen.storyboard in Resources */,
+				1A66AE8D26BC4F18002BB556 /* Pacifico-Regular.ttf in Resources */,
 				1A66AE8026BC4D1F002BB556 /* Preview Assets.xcassets in Resources */,
 				1A66AE7D26BC4D1F002BB556 /* Assets.xcassets in Resources */,
 			);
@@ -145,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A66AE8F26BC640B002BB556 /* InfoView.swift in Sources */,
 				1A66AE7726BC4D1D002BB556 /* AppDelegate.swift in Sources */,
 				1A66AE7926BC4D1D002BB556 /* SceneDelegate.swift in Sources */,
 				1A66AE7B26BC4D1D002BB556 /* ContentView.swift in Sources */,
